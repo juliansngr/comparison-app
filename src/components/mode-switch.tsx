@@ -1,7 +1,7 @@
 import { Moon, Sun } from "lucide-react";
 
-import { Switch } from "@/components/ui/switch";
-import { useTheme } from "@/components/theme-provider";
+import { Switch } from "./ui/switch";
+import { useTheme } from "./theme-provider";
 
 export default function ModeSwitch() {
   const { theme, setTheme } = useTheme();
